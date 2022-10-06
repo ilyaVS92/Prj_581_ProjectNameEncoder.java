@@ -1,0 +1,13 @@
+05/x/2022 - 
+project (ud) = "programming"; No. digits = 3
+project 2 Name = "projectandtaskcomments"; No. Digits = 5
+No. of variations (ud) = 7; "near-by" selected;
+Exception in thread "AWT-EventQueue-0" java.lang.NegativeArraySizeException: -1
+	at Prj_581_encoderRing.decreaseLength(Prj_581_encoderRing.java:48)
+	at Prj_581_encoderRing.actualSingleDigits(Prj_581_encoderRing.java:77)
+	at Prj_581_encoderRing.encodeSimple(Prj_581_encoderRing.java:28)
+	at Prj_581_encoderRing.encodeWithVars(Prj_581_encoderRing.java:127)
+	at Prj_581_swingGUI.computeAndDisplay(Prj_581_swingGUI.java:465)
+	at Prj_581_swingGUI.actionPerformed(Prj_581_swingGUI.java:518)
+
+most likely a problem where there are insufficient chars for computing the encoded number
